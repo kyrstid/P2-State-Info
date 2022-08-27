@@ -1,11 +1,3 @@
-
-
-#  DeaneP2
-#  Programmer: Kyrsti Deane
-#  Email: 'kdeane1@cnm.edu'
-#  Purpose: Provide data for state entered by user
-
-
 import random
 
 capital_dict = {'Alabama' : 'Montgomery',
@@ -108,7 +100,8 @@ districts_dict = {'Alabama' : '7',
 'Washington' : '9',
 'West Virginia' : '3',
 'Wisconsin' : '8',
-'Wyoming' : '1',}
+'Wyoming' : '1',
+}
 
 joined_dict = {'Alabama' : '22',
 'Alaska' : '49',
@@ -159,7 +152,8 @@ joined_dict = {'Alabama' : '22',
 'Washington' : '42',
 'West Virginia' : '35',
 'Wisconsin' : '30',
-'Wyoming' : '44',}
+'Wyoming' : '44',
+}
 
 
 states = ['Alabama',
@@ -211,11 +205,7 @@ states = ['Alabama',
 'Washington',
 'West Virginia',
 'Wisconsin',
-'Wyoming',]
-
-
-
-import random
+'Wyoming',]
 
 
 user_input = input('Please enter the name of a state as a proper noun: ')
